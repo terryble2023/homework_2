@@ -1,0 +1,37 @@
+# ---------- 构建产物 ----------
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+
+# ---------- 程序运行产物 ----------
+# AprilTag 模式保存的两张图
+binary_image.png
+result_image.png
+
+# 魔方模式可能保存的截图
+rubik_frame_*.png
+rubik_last.png
+snapshot_*.png
+
+# ---------- 编辑器临时文件 ----------
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ---------- 其他 ----------
+*.log
+__pycache__/
