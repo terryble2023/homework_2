@@ -25,8 +25,12 @@ result_image.png
 rubik_frame_*.png
 rubik_last.png
 snapshot_*.png
+camera_result.png
+camera_binary.png
 
-# ---------- 编辑器临时文件 ----------
+# ---------- 编辑器 ----------
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
